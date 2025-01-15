@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "com.ivantest.imagesearcher"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.ivantest.imagesearcher"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 

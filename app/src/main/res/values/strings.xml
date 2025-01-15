@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ImageSearcher</string>
+    <string name="search_input_hint">Enter search terms.</string>
+    <string name="search_icon_content_description">Search Icon</string>
 </resources>

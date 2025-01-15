@@ -68,6 +68,8 @@ dependencies {
     // coil
     implementation(libs.coil.compose)
 
+    implementation(libs.accompanist.webview)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

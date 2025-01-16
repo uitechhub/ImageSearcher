@@ -81,6 +81,9 @@ fun FlickrSearchScreen(
             }
         }
     } else {
-        FlickrDetailView(image = uiState.selectedImage!!) { viewModel.updateSelectedImage(null) }
+        FlickrDetailView(
+            modifier = modifier,
+            image = uiState.selectedImage!!
+        ) { viewModel.updateSelectedImage(null) }
     }
 }
